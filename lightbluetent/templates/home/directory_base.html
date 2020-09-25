@@ -23,7 +23,8 @@
   {% block head %}{% endblock %}
 </head>
 
-<body class="layout-footer">
+<body class="layout-footer has-img-banner">
+  <div class="img-banner" style="background-image: url('{{ url_for('static', filename='images/qjcr_banner.jpg') }}');"></div>
 
   <main role="main" class="container">
     {%- if page_title is defined %}
