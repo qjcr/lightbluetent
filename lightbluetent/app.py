@@ -41,7 +41,7 @@ def create_app(config_name=None):
             'www.srcf.net'
         ]
     }
-    Talisman(app, content_security_policy=csp)
+    #Talisman(app, content_security_policy=csp)
 
     babel = Babel(app)
 

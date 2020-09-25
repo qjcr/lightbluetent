@@ -6,7 +6,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 class Config(object):
     """Base configuration"""
 
-    user = os.getenv("POSTGRES_USER", "postgres")
+    user = os.getenv("POSTGRES_USER", "qjcr")
     password = os.getenv("POSTGRES_PASSWORD")
     hostname = os.getenv("POSTGRES_HOSTNAME", "localhost")
     port = int(os.getenv("POSTGRES_PORT", 5432))
@@ -18,8 +18,8 @@ class Config(object):
     # Requests up to 1 MB
     MAX_CONTENT_LENGTH = 1024 * 1024
 
-    HAS_DIRECTORY_PAGE = False
-    NUMBER_OF_DAYS = 2
+    HAS_DIRECTORY_PAGE = True
+    NUMBER_OF_DAYS = 1
 
     DEFAULT_LOGO = "default_logo.png"
     DEFAULT_BBB_LOGO = "default_bbb_logo.png"

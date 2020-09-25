@@ -34,9 +34,9 @@ def index():
         # Shuffle the socs so they all have a chance of being near the top
         random.shuffle(societies)
         home_url = url_for('home.register')
-        return render_template("home/directory.html", page_title=_("Welcome to the 2020 Virtual Freshers' Fair!"), societies=societies, running_meetings=running_meetings, home_url=home_url)
+        return render_template("home/directory.html", page_title=_("Welcome to the QJCR 2020 Societies Fair!"), societies=societies, running_meetings=running_meetings, home_url=home_url)
     else:
-        return render_template("home/index.html", page_title=_("Welcome to the 2020 Virtual Freshers' Fair!"))
+        return render_template("home/index.html", page_title=_("Welcome to the QJCR 2020 Societies Fair!"))
 
 @bp.route("/logout")
 def logout():
