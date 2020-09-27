@@ -39,7 +39,7 @@ def create_app(config_name=None):
         "img-src": ["'self'", "data:", "www.srcf.net"],
         "style-src": ["'self'", "'unsafe-inline'", "www.srcf.net"],
     }
-    Talisman(app, content_security_policy=csp)
+    #Talisman(app, content_security_policy=csp)
 
     babel = Babel(app)
 

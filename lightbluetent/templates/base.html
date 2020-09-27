@@ -9,13 +9,9 @@
     <meta property="og:title" content="{{ _("SRCF Timeout - Virtual Freshers' Fair") }}" />
     <meta property="og:type" content="website" />
     <meta property="og:description"
-        content="{{ _("This is a website for stall management using SRCF Timeout for the 2020 Virtual Freshers' Fair") }}" />
+        content="{{ _("Queens College' Societies Fair 2020") }}" />
     <meta property="og:url" content="{{ request.base_url }}" />
     <meta property="og:image" content="{{ url_for('static', filename='favicon.svg') }}" />
-    {% endblock %}
-
-    {% block title %}
-    <title>SRCF Freshers' Fair &mdash; {% if page_title %}{{ page_title }}{% endif %}</title>
     {% endblock %}
 
     <link href="https://www.srcf.net/_srcf/vendor/css/bootstrap.min.css" rel="stylesheet">
