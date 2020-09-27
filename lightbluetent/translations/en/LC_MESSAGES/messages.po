@@ -20,7 +20,7 @@ msgstr ""
 
 #: lightbluetent/home.py:50 lightbluetent/home.py:58
 msgid "Welcome to the 2020 Virtual Freshers' Fair!"
-msgstr ""
+msgstr "Welcome to the 2020 Queens' JCR Societies Fair!"
 
 #: lightbluetent/home.py:141
 msgid "Your society short name must not contain spaces."
@@ -49,20 +49,20 @@ msgstr ""
 
 #: lightbluetent/templates/base.html:9
 msgid "SRCF Timeout - Virtual Freshers' Fair"
-msgstr ""
+msgstr "QJCR Societies Fair"
 
 #: lightbluetent/templates/base.html:12
 #: lightbluetent/templates/society/welcome.html:11
 msgid ""
 "This is a website for stall management using SRCF Timeout for the 2020 "
 "Virtual Freshers' Fair"
-msgstr ""
+msgstr "Queens' College JCR 2020 - Societies Fair"
 
 #: lightbluetent/templates/base.html:44
 #: lightbluetent/templates/society/welcome.html:4
 #: lightbluetent/templates/society/welcome.html:19
 msgid "Virtual Freshers' Fair"
-msgstr ""
+msgstr "QJCR Societies Fair"
 
 #: lightbluetent/templates/base.html:98
 msgid ""
@@ -70,6 +70,10 @@ msgid ""
 "target=\"_blank\">the SRCF</a>, a volunteer student society that provides"
 " free quality and reliable computing services"
 msgstr ""
+"This service is run by <a href=\"https://qjcr.org.uk\" target=\"_blank\">Queens' College JCR</a>, and <a href=\"https://www.srcf.net\" "
+"target=\"_blank\">the SRCF</a>, a volunteer student society that provides"
+" free quality and reliable computing services"
+
 
 #: lightbluetent/templates/home/directory.html:11
 msgid "There are no registered societies."
@@ -110,7 +114,7 @@ msgstr ""
 
 #: lightbluetent/templates/home/index.html:7
 msgid ""
-"This is a platform provided by the SRCF for the 2020 Virtual Freshers' "
+"This is a platform provided by the SRCF for the QJCR Societies "
 "Fair. For society admins, it allows you to host a custom web page that "
 "connects to our <a href=\"https://timeout.srcf.net\">free video "
 "conferencing service, Timeout</a>."
@@ -126,7 +130,7 @@ msgstr ""
 
 #: lightbluetent/templates/home/index.html:12
 msgid "View the Cambridge SU society registry"
-msgstr ""
+msgstr "View the society registry"
 
 #: lightbluetent/templates/home/register.html:4
 #, python-format
