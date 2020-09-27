@@ -134,7 +134,7 @@ ul.traceback li {
 
 body.has-img-banner {
     /* Original padding-top (5.5rem) + .img-banner height (10rem) */
-    padding-top: calc(5.5rem + 15rem);
+    padding-top: calc(15rem);
 }
 
 .img-banner {
